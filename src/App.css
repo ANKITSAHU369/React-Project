@@ -1,0 +1,88 @@
+
+#main{
+  display:flex;
+  flex-direction:row;
+}
+
+/* index.css */
+.orderouterwrapper{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 8% 4%;
+  margin-top: 100px;
+}
+
+.containerInnerWrapper{
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding: 24px 0;
+}
+
+.containerFilterWrapper{
+  width: 180px
+}
+
+.containerFilterOption{
+  display: flex;
+  flex-direction: column;
+}
+
+.containerFilterCheckbox{
+  margin: 6px 0;
+  cursor: pointer;
+}
+.containerFilterCheckbox input{
+  margin-right: 12px;
+}
+.containerFilterOption p{
+  margin:24px 0px ;
+}
+
+
+.orderTable td{
+  background-color: #fff;
+  border-bottom: 4px solid #f6f7fb;
+   border-collapse: collapse;
+  text-align: left;
+  padding: 12px 24px;
+  font-size: 14px;
+}
+.secondary-text{
+  color: #8c8c8c
+
+}
+
+.orderTable{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.orderTable tr{
+  vertical-align: middle;
+}
+
+.orderTable th{
+  text-align: left;
+  padding: 12px 24px;
+  font-size: 14px;
+}
+
+.orderTable td{
+  background-color: #fff;
+  border-bottom: 4px solid #f6f7fb;
+  text-align: left;
+  padding: 12px 24px;
+  font-size: 14px;
+}
+
+.secondary-text{
+  color: #8c8c8c
+}
+
+.primary-text{
+  color: rgba(0,0,0,.8);
+  font-weight: 500;
+}
+
+/* order.css */

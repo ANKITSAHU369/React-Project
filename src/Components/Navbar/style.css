@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+     background-color:#fff;
+}
+
+.navbar-main{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 49px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: 0 2px 4px #ccc;
+    background-color: #fff;
+    justify-content: space-between;
+    height: 70px;
+    background-color: #fff(168, 130, 240, 0.982);
+}
+
+.navbar-logo{
+    display: flex;
+    align-items: center;
+    margin-right: 42px;
+}
+
+.navbar-logo img{
+    width: 24px;
+    height: 28px;
+    margin-right: 18px;
+}
+
+.navbar-logo p{
+    font-size: 24px;
+    letter-spacing: -1px;
+    font-weight: 500;
+    margin: 0;
+    color: rgba(0,0,0,.8);
+    cursor: none;
+}
+
+.navbar-left-menu-main{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#logoutButton{
+    width: 200px;
+  height:100px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.navbar-menu{
+    text-decoration: none;
+    color: rgba(0,0,0,.8);
+    padding: 24px 0 16px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .6px;
+    margin: 0 10px;
+}
+
+.navbar-menu.active{
+    color: rgb(236, 37, 37);
+    padding-bottom: 22px;
+    border-bottom: 3px solid rgb(212, 19, 19);
+    cursor:pointer ;
+}
+
+#pharmacy-login-wrapper{
+    margin-top: 150px;
+}
+
+.Login-form-Page{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 6px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 32px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 6px #ccc;
+}
+
+.Login-form-Page h1{
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin: 0 0 24px;
+}
+
+.login-Form-field{
+    width: 100%;
+    padding-top: 16px;
+    font-size: 14px;
+    box-sizing: border-box;
+    border: 0;
+    border-bottom: 2px solid #8c8c8c;
+    margin-bottom: 16px;
+    outline: none;
+}
+
+.loginForm-submit-Button{
+    display: inline-block;
+    border-radius: 30px;
+    padding: 16px 38px;
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    background-color: #20b883;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.container-filter-option input{
+    border-radius: 24px;
+}
